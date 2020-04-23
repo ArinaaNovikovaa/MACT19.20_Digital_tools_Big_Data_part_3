@@ -1,0 +1,18 @@
+Steps in video 1
+1. Open QGIS project "Cadastral_data_BOG"
+2. Load population table (population_upz_2015)
+3. Create virtual colum with neighbourhoud ID (UPla)
+4. Join Neighbourhoud layer and population table
+5. Set Simbology for population density:
+	Type: Centroid fill
+	Color: #b08080 (close to transparent)
+	Effect: Layer rendering / Feature / Overlay
+6. Modify display for buildings layer (Cons0919)
+7. Sum area of buildings per neighbourhood
+
+
+Not seen in the video
+1. Check geometry for buildings and get only the valid ones
+2. Export centroids (Vector/Geometry Tools/Centroids)
+3. Spatial Join between centroids and neighbourhoods (using only the code to attach to centroids)
+4. Export as CSV (file: cons_upla)
