@@ -11,4 +11,4 @@ The resources are divided into six sessions:
 
 This resources also include the set of [slides](slides) used during the course sessions.
 
-Contact details and additional questions can be send through email to diego.pajarito@iaac.net  # MACT19.20_Digital_tools_Big_Data_part_3
+Contact details and additional questions can be send through email to diego.pajarito@iaac.net 
