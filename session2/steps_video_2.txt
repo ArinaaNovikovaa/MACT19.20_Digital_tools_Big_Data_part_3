@@ -1,0 +1,15 @@
+Steps in video 2
+1. Open the QGIS project for satellite imagery and explore the data
+2. Open the python console
+3. Open the script for NDVI from the github repository and read the code
+4. Execute the script in the python console of QGIS
+5. Load the NDVI raster layer and change the symbology
+6. Open the script for NDVI difference between 2019 and 2015
+    (you need to modify the original script to calculate 2015 NDVI)
+7. Load the NDVI difference raster layer and change the symbology
+8. Check the raster calculator user interface and see the options to
+    generate expressions
+
+
+Not seen in the video
+1.
