@@ -12,7 +12,7 @@ Steps in video 1
 8. Load the image with the filename containing "B2 ... 60m"
 9. Load the image with the filename containing "TCI_60"
 10. Load the image with the filename containing "B2 ... 10m"
-11. Compare visually the outputs and 
+11. Compare visually the outputs and
 
 
 Not seen in the video

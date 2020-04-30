@@ -16,7 +16,7 @@ population = pd.read_csv(population_path)
 # Calculating built area per neighbourhood
 built_area = buildings.groupby('code', as_index=False)
 built_area = built_area['built_area'].sum()
-neighbourhoods = neighbourhoods.join(built_area)
+neighbourhoods = neighbourhoods.join(built_area, rsuffix='_b')
 
 # Scatter plot Total Area Vs. Built Area
 ax = sns.scatterplot('UPlArea', 'built_area', data=neighbourhoods)
