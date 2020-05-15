@@ -1,8 +1,8 @@
 import tweepy
 import pandas as pd
 
-consumer_key = 'dq1eizDpvpN8UaNvuIBQoz59M'
-consumer_secret = '0cUblSwiKvCmSfvH5oSrtR0CvxKKa2lOrkJuz1CzjQVjzv4R8O'
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
 
 tweets = []
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
