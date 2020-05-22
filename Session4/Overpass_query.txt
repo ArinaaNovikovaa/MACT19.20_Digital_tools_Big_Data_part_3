@@ -1,9 +1,0 @@
-/*
-This is an example Overpass query.
-Try it out by pressing the Run button above!
-You can find more examples with the Load tool.
-*/
-node
-  [shop=bakery]
-  (41.399089057773814,2.194347381591797,41.409099913421024,2.2104406356811523);
-out;
