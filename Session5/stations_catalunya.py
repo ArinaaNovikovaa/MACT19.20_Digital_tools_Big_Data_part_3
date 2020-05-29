@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Layers: Please double check you set the path to the layers folder
 measurement_path = './data/data_air_catalonia.csv'
 stations_path = 'stations_catalonia.geojson'
-measurement = pd.read_csv(measurement_path, nrows=1000000)
+measurement = pd.read_csv(measurement_path, nrows=100000)
 measurement['DATA'] = pd.to_datetime(measurement['DATA'])
 
 # Calculating built area per neighbourhood
